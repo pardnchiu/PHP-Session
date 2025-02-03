@@ -1,6 +1,6 @@
 {
     "name": "pardnchiu/session",
-    "description": "PD\\Session is a flexible PHP session manager with Redis support and filesystem fallback, providing secure session handling with automated storage selection.",
+    "description": "PD\\Session is a flexible PHP session manager with Redis support and filesystem fallback. Provides secure session handling.",
     "type": "library",
     "license": "MIT",
     "authors": [

@@ -2,14 +2,32 @@
     "name": "pardnchiu/session",
     "description": "PD\\Session is a flexible PHP session manager with Redis support and filesystem fallback. Provides secure session handling.",
     "type": "library",
+    "keywords": [
+        "redis",
+        "session",
+        "predis",
+        "php",
+        "pardnchiu",
+        "邱敬幃"
+    ],
+    "homepage": "https://pardn.io",
     "license": "MIT",
     "authors": [
         {
             "name": "邱敬幃 Pardn Chiu",
-            "email": "dev@pardn.io"
+            "email": "dev@pardn.io",
+            "homepage": "https://pardn.io",
+            "role": "Developer"
         }
     ],
+    "support": {
+        "email": "dev@pardn.io",
+        "issues": "https://github.com/pardnchiu/PHP-Session/issues",
+        "source": "https://github.com/pardnchiu/PHP-Session",
+        "docs": "https://github.com/pardnchiu/PHP-Session/blob/main/README.md"
+    },
     "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {
         "php": ">=8.0"
     },
@@ -35,6 +53,15 @@
         "branch-alias": {}
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "preferred-install": "dist"
+    },
+    "archive": {
+        "exclude": [
+            "/.git",
+            "/*.md",
+            "/.gitignore"
+        ]
     }
 }
